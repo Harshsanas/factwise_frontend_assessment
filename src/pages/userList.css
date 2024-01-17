@@ -83,8 +83,26 @@ label{
 }
 
 .edit-button,
-.delete-button {
+.delete-button{
   margin: 10px;
+}
+
+ .cancel-button, .save-button{
+  margin: 5px;
+ }
+
+.cancel-button{
+  color: red !important;
+  border: none !important;
+}
+
+.save-button{
+  color:darkgreen !important;
+  border: none !important;
+}
+
+.cancel-button, .save-button:hover{
+  background-color: transparent !important;
 }
 
 .modal-title {
