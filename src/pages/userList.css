@@ -1,0 +1,60 @@
+.user-list-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.input-wrapper {
+  margin-bottom: 20px;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.user-item:hover {
+  background-color: #f5f5f5;
+}
+
+.nameTag {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #e0e0e0;
+}
+
+.nameTag img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.subHead,
+.descriptionSec {
+  padding: 10px;
+}
+
+.subHead div,
+.descriptionSec {
+  margin-bottom: 10px;
+}
+
+.expanded {
+  background-color: #fff;
+}
+
+.accordion-icon {
+  margin-left: auto; 
+  font-size: 3em; 
+  cursor: pointer;
+}
+
+.expanded .accordion-icon {
+  transform: rotate(0deg); 
+}
